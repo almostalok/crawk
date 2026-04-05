@@ -84,11 +84,11 @@ export default function DashboardTab({ session }) {
 
 /* ── Helpers ──────────────────────────────────────────────────────────────── */
 const Stat = ({ label, value, icon }) => (
-  <div style={{ background: "var(--color-background-secondary)", borderRadius: 8, padding: "0.9rem 1rem" }}>
-    <div style={{ fontSize: 10, fontWeight: 500, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--color-text-secondary)", marginBottom: 3 }}>
+  <div style={{ background: "#fff", border: "3px solid #000", boxShadow: "4px 4px 0 0 #000", borderRadius: 0, padding: "0.9rem 1rem" }}>
+    <div style={{ fontSize: 10, fontWeight: 900, fontFamily: "var(--font-mono)", letterSpacing: "0.08em", textTransform: "uppercase", color: "#000", marginBottom: 3 }}>
       {icon && <span style={{ marginRight: 4 }}>{icon}</span>}{label}
     </div>
-    <div style={{ fontSize: 28, fontWeight: 700 }}>{value}</div>
+    <div style={{ fontSize: 28, fontFamily: "var(--font-mono)", fontWeight: 900 }}>{value}</div>
   </div>
 );
 

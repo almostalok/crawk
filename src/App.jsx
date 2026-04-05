@@ -19,7 +19,7 @@ function LandingPage({ onEnter }) {
           <span style={{ color: "#ff003c" }}>Demolished.</span>
         </h1>
         <p style={{ fontSize: 20, fontFamily: "var(--font-mono)", maxWidth: 500, margin: "0 auto 40px", fontWeight: 700 }}>
-          Interview Intelligence Pipeline. <br/>Raw Text → Queryable JSON Arrays. <br/>Powered by Google Gemini.
+          CRAWK Platform. <br/>Raw Text → Queryable JSON Arrays. <br/>Powered by Google Gemini.
         </p>
         <button onClick={onEnter} className="tab-btn" style={{ fontSize: 24, padding: "20px 40px", background: "#e2ff00", letterSpacing: "0.05em" }}>
           [ ENTER PIPELINE ]
@@ -58,7 +58,7 @@ export default function App() {
               <span style={{ fontFamily: "var(--font-mono)", fontWeight: 900, fontSize: 24 }}>//</span>
             </div>
             <h1 style={{ fontSize: 28, fontWeight: 900, textTransform: "uppercase", letterSpacing: "-0.02em", margin: 0 }}>
-              Interview Pipeline
+              CRAWK
             </h1>
           </div>
         </div>

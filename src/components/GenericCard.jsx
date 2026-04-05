@@ -29,17 +29,17 @@ export default function GenericCard({ docType, result, isNew = false }) {
   };
 
   const badge = (value, colorMap) => {
-    const c = colorMap[value] || { bg: "#f3f4f6", text: "#374151" };
+    const c = colorMap[value] || { bg: "#000", text: "#fff" };
     return (
-      <span style={{ fontSize: 12, fontWeight: 500, background: c.bg, color: c.text,
-        borderRadius: 20, padding: "3px 11px" }}>{value}</span>
+      <span style={{ fontSize: 12, fontFamily: "var(--font-mono)", fontWeight: 900, background: c.bg, color: c.text,
+        border: "2px solid #000", borderRadius: 0, padding: "2px 8px", textTransform: "uppercase" }}>{value}</span>
     );
   };
 
   const tagList = (items, bg, text) => (
     <div style={{ display: "flex", flexWrap: "wrap", gap: 5 }}>
       {(items || []).map((s, i) => (
-        <span key={i} style={{ fontSize: 12, background: bg, color: text, borderRadius: 20, padding: "3px 10px" }}>{s}</span>
+        <span key={i} style={{ fontSize: 12, background: bg, color: text, border: "2px solid #000", borderRadius: 0, padding: "2px 8px", fontWeight: 900, textTransform: "uppercase" }}>{s}</span>
       ))}
     </div>
   );
@@ -75,8 +75,8 @@ export default function GenericCard({ docType, result, isNew = false }) {
       </div>
 
       {(result.salary_min || result.salary_max) && (
-        <div style={{ background: "#f0f7ff", borderRadius: 8, padding: "10px 14px", marginBottom: 14, display: "flex", gap: 16, flexWrap: "wrap" }}>
-          <span style={{ fontSize: 13, fontWeight: 600, color: "#1e3a5f" }}>
+        <div style={{ background: "#e2ff00", border: "3px solid #000", padding: "10px 14px", marginBottom: 14, display: "flex", gap: 16, flexWrap: "wrap", boxShadow: "4px 4px 0 0 #000" }}>
+          <span style={{ fontSize: 14, fontFamily: "var(--font-mono)", fontWeight: 900, color: "#000" }}>
             💰 {result.salary_currency}{result.salary_min?.toLocaleString()} – {result.salary_currency}{result.salary_max?.toLocaleString()} {result.salary_period || ""}
           </span>
         </div>
@@ -91,7 +91,7 @@ export default function GenericCard({ docType, result, isNew = false }) {
       {field("Required Qualifications", result.required_qualifications)}
       {field("Benefits", result.benefits_mentioned)}
       {result.summary && (
-        <div style={{ borderLeft: "3px solid #3266ad", paddingLeft: 12, fontSize: 13, color: "var(--color-text-secondary)", fontStyle: "italic", lineHeight: 1.6, marginTop: 8 }}>
+        <div style={{ borderLeft: "6px solid #000", background: "#f0f0f0", padding: "10px 14px", fontSize: 14, color: "#000", fontFamily: "var(--font-mono)", fontWeight: 700, lineHeight: 1.6, marginTop: 8 }}>
           {result.summary}
         </div>
       )}
@@ -167,7 +167,7 @@ export default function GenericCard({ docType, result, isNew = false }) {
       )}
 
       {result.summary && (
-        <div style={{ borderLeft: "3px solid #3266ad", paddingLeft: 12, fontSize: 13, color: "var(--color-text-secondary)", fontStyle: "italic", lineHeight: 1.6, marginTop: 8 }}>
+        <div style={{ borderLeft: "6px solid #000", background: "#f0f0f0", padding: "10px 14px", fontSize: 14, color: "#000", fontFamily: "var(--font-mono)", fontWeight: 700, lineHeight: 1.6, marginTop: 8 }}>
           "{result.summary}"
         </div>
       )}
@@ -239,7 +239,7 @@ export default function GenericCard({ docType, result, isNew = false }) {
       )}
 
       {result.summary && (
-        <div style={{ borderLeft: "3px solid #3266ad", paddingLeft: 12, fontSize: 13, color: "var(--color-text-secondary)", fontStyle: "italic", lineHeight: 1.6, marginTop: 8 }}>
+        <div style={{ borderLeft: "6px solid #000", background: "#f0f0f0", padding: "10px 14px", fontSize: 14, color: "#000", fontFamily: "var(--font-mono)", fontWeight: 700, lineHeight: 1.6, marginTop: 8 }}>
           {result.summary}
         </div>
       )}
@@ -253,10 +253,10 @@ export default function GenericCard({ docType, result, isNew = false }) {
       {docType === "internal_feedback"  && <FeedbackCard />}
 
       {/* Download button */}
-      <div style={{ borderTop: "0.5px solid var(--color-border-tertiary)", paddingTop: 10, marginTop: 14 }}>
+      <div style={{ borderTop: "4px solid #000", paddingTop: 14, marginTop: 14 }}>
         <button onClick={handleDownload}
-          style={{ fontSize: 12, color: "#3266ad", background: "none", border: "0.5px solid #3266ad",
-            borderRadius: 6, padding: "5px 14px", cursor: "pointer", fontFamily: "var(--font-sans)" }}>
+          style={{ fontSize: 14, fontWeight: 900, color: "#fff", background: "#000", border: "2px solid #000",
+            borderRadius: 0, padding: "8px 16px", cursor: "pointer", fontFamily: "var(--font-mono)", textTransform: "uppercase", boxShadow: "4px 4px 0 0 #e2ff00" }}>
           ↓ Download JSON
         </button>
       </div>
