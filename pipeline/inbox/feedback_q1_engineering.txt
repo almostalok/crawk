@@ -1,0 +1,19 @@
+From: sarah.chen@company.com
+To: tom.walsh@company.com (Engineering Director)
+Subject: Q1 Engineering Retrospective — some honest thoughts
+
+Tom,
+
+I wanted to write this up before the retro tomorrow so you have context going in. A few things I think we need to address openly.
+
+On the positive side: The infra migration project went really well. Leon's team hit every milestone and the Kubernetes move was smoother than any of us expected given the codebase state we inherited. Credit where it's due — that squad operated with very little handholding and I'd want to replicate how they worked on future projects.
+
+The growth engineering team (Nkechi's squad) is a different story. There's a morale issue that's been building since the Q4 reorg. Three engineers have mentioned to me independently that they feel like their work doesn't connect to any visible company goal. One of them is actively interviewing externally — I don't know who but it was mentioned by two different people. The sprint goals feel disconnected from outcomes and I think the problem is that Nkechi doesn't have enough context on the business side to translate roadmap items into "why this matters." She's a strong engineer but I don't think she's being set up to succeed as a manager.
+
+Separately: the on-call rotation is unsustainable. We've had 11 P1 incidents in the last 6 weeks, almost all tied to the payments service. People are burning out quietly. Arjun flagged this to me last week — he's had 4 consecutive interrupted weekends. This needs structural attention, not just a better runbook.
+
+One more thing — the hiring process for the senior backend role is taking too long. We've been in "reviewing candidates" mode for 8 weeks. This creates a real team morale problem when people see open headcount sitting unfilled for months. Can we set a decision deadline?
+
+Happy to discuss any of this tomorrow. I think the retro will be more useful if we come in willing to name things.
+
+Sarah

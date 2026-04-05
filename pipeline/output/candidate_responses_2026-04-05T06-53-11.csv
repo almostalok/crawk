@@ -1,0 +1,2 @@
+candidate_name,role_applied,response_quality,experience_level,claimed_skills,communication_score,key_themes,green_flags,red_flags,recommended_follow_up,summary
+"Before Fin","","Good","Senior","[MOCK — run real pipeline for skill extraction]","4","[MOCK — run real pipeline for theme extraction]","","","Tell me more about your most complex project. | How do you approach technical disagreements?","[MOCK MODE] heuristic extraction. Set VITE_ANTHROPIC_API_KEY for full semantic extraction."

@@ -1,0 +1,1 @@
+Candidate: Sarah Jenkins. Position: Staff Engineer. Technical round was flawless. She easily coded a graph traversal algorithm and clearly explained time complexity. Excellent communication skills, very concise. However, she struggled slightly on behavioral questions regarding conflict resolution. Overall: Strong Hire. Confidence: High.

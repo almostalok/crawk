@@ -1,0 +1,25 @@
+Interview date: March 28
+Candidate: Ravi Shankar
+Role: Product Manager, Growth
+Interviewer: Dana Chen (PM Lead) + Marcus Li (Eng)
+
+---
+
+Pre-call notes: 4 years at Swiggy as an APM → PM. Did an MBA at ISB. Applying for our Growth PM role. Saw his LinkedIn — looks like he owns the restaurant supply-side for a metro region. Not obvious SaaS background but a strong product thinker based on the phone screen.
+
+System design / product sense (30 mins):
+We gave him the classic: "Design a referral programme for a B2B SaaS product." He spent about 90 seconds clarifying who the product was for, average ACV, and what "success" looks like before sketching anything. That's a good sign. His framework was: identify the referrer incentive, the mechanism (in-app vs email), quality gate (who should we even let refer), and tracking. He missed CLV-adjusted reward sizing initially but when Marcus pushed on it with "how do you know $50 is the right reward?" he picked it up quickly and reformulated. Overall solid here.
+
+Execution / metrics (20 mins):
+Asked about a project where he moved a metric. He talked about improving delivery partner show-up rate at Swiggy — owns the full story, from identifying the problem (partner cancellation correlated with shift start time), to the intervention (SMS nudges 30min before shift), to the outcome (8% improvement in on-time starts, annualised to ~$1.2M cost savings). Can cite numbers, holds up under cross-questioning. Impressed.
+
+Stakeholder management (15 mins):
+We asked how he handles disagreement with engineering on priority. His answer was reasonable but felt rehearsed — talked about "data-driven conversations" and "shared goals" without giving a specific example. I pressed for a real story and he gave one but it was vague. This is a gap for a Growth PM who will constantly be pulling eng bandwidth from competing priorities.
+
+Culture / collab (10 mins):
+Warm, easy to talk to. Good energy. Said he's most energised by 0→1 work, which is interesting given this role is more 10→100 optimisation. Should probe this in next round.
+
+Overall: Strong product instincts and impressive execution stories. Stakeholder and influence skills need more evidence. Recommend moving to final round with a take-home case.
+
+Reco: Move forward (conditional)
+Confidence: Medium

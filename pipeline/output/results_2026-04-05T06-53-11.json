@@ -1,0 +1,113 @@
+[
+  {
+    "source_file": "candidate_priya_fullstack.txt",
+    "doc_type": "candidate_response",
+    "analyzed_at": "2026-04-05T06:53:10.889Z",
+    "candidate_name": "Before Fin",
+    "role_applied": null,
+    "response_quality": "Good",
+    "experience_level": "Senior",
+    "years_of_experience": "3",
+    "claimed_skills": [
+      "[MOCK — run real pipeline for skill extraction]"
+    ],
+    "communication_score": 4,
+    "key_themes": [
+      "[MOCK — run real pipeline for theme extraction]"
+    ],
+    "green_flags": [],
+    "red_flags": [],
+    "quantified_achievements": [],
+    "recommended_follow_up": [
+      "Tell me more about your most complex project.",
+      "How do you approach technical disagreements?"
+    ],
+    "current_company": null,
+    "contact_info": "priya.nair.dev@gmail.com",
+    "summary": "[MOCK MODE] heuristic extraction. Set VITE_ANTHROPIC_API_KEY for full semantic extraction."
+  },
+  {
+    "source_file": "feedback_q1_engineering.txt",
+    "doc_type": "internal_feedback",
+    "analyzed_at": "2026-04-05T06:53:10.952Z",
+    "subject": "Q1 Engineering Retrospective — some honest thoughts",
+    "about_category": "Hiring",
+    "sentiment": "Negative",
+    "urgency": "High",
+    "category": "Morale",
+    "mentioned_people": [
+      "From",
+      "To",
+      "Engineering Director",
+      "Subject",
+      "Engineering Retrospective"
+    ],
+    "mentioned_teams": [],
+    "key_points": [
+      "[MOCK — run real pipeline for key point extraction]"
+    ],
+    "action_items": [
+      "[MOCK — run real pipeline for action item extraction]"
+    ],
+    "risks_flagged": [
+      "Potential attrition risk mentioned"
+    ],
+    "positive_signals": [],
+    "author_role": null,
+    "summary": "[MOCK MODE] heuristic extraction. Set VITE_ANTHROPIC_API_KEY for full semantic extraction."
+  },
+  {
+    "source_file": "interview_ravi_pm.txt",
+    "doc_type": "interview_notes",
+    "analyzed_at": "2026-04-05T06:53:11.015Z",
+    "overall_recommendation": "Lean Hire",
+    "confidence": "Medium",
+    "scores": {
+      "technical_skill": 3,
+      "communication": 2,
+      "problem_solving": 3,
+      "culture_fit": 2,
+      "leadership": 2
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Interview date: March 28\nCandidate: Ravi Shankar\nRole: Product Manager, Growth\nInterviewer: Dana Chen (PM Lead) + Marcus Li (Eng)\n\n---\n\nPre-call notes: 4 years at Swiggy as an APM → PM",
+    "seniority_signal": "Mid",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": null,
+    "reasoning": "[MOCK MODE] Positive signal ratio 50%. Set VITE_ANTHROPIC_API_KEY for Claude extraction."
+  },
+  {
+    "source_file": "jd_senior_fullstack.txt",
+    "doc_type": "job_description",
+    "analyzed_at": "2026-04-05T06:53:11.076Z",
+    "job_title": "What you'll do:",
+    "company_name": null,
+    "location": "Remote",
+    "remote_policy": "Remote",
+    "employment_type": "Full-time",
+    "seniority_level": "Senior",
+    "department": null,
+    "reports_to": null,
+    "team_size": null,
+    "salary_min": 3,
+    "salary_max": 4,
+    "salary_currency": "USD",
+    "salary_period": "annual",
+    "required_skills": [
+      "[MOCK — run real pipeline for extracted skills]"
+    ],
+    "preferred_skills": [],
+    "key_responsibilities": [
+      "[MOCK — run real pipeline for responsibilities]"
+    ],
+    "required_qualifications": [],
+    "benefits_mentioned": [],
+    "application_contact": "hiring@meridianl.com",
+    "summary": "[MOCK MODE] heuristic extraction. Set VITE_ANTHROPIC_API_KEY for full semantic extraction."
+  }
+]

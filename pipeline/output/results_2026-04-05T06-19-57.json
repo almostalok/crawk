@@ -1,0 +1,400 @@
+[
+  {
+    "id": 1,
+    "source_label": "Full-Stack Engineer",
+    "overall_recommendation": "Strong Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 5,
+      "communication": 5,
+      "problem_solving": 5,
+      "culture_fit": 4,
+      "leadership": 4
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Maya did an impressive job across the board",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Full-Stack Engineer",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 88%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.324Z"
+  },
+  {
+    "id": 2,
+    "source_label": "Data Scientist",
+    "overall_recommendation": "Lean No Hire",
+    "confidence": "Medium",
+    "scores": {
+      "technical_skill": 3,
+      "communication": 2,
+      "problem_solving": 3,
+      "culture_fit": 2,
+      "leadership": null
+    },
+    "key_strengths": [
+      "Some domain familiarity"
+    ],
+    "key_concerns": [
+      "Technical gaps identified",
+      "Communication concerns"
+    ],
+    "standout_quote": "Background in ML is solid — PhD from a decent program, familiar with the standard toolkit (sklearn, XGBoost, some PyTorch)",
+    "seniority_signal": "Mid",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Data Scientist",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 33%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.386Z"
+  },
+  {
+    "id": 3,
+    "source_label": "DevOps / SRE",
+    "overall_recommendation": "Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 4,
+      "communication": 4,
+      "problem_solving": 4,
+      "culture_fit": 3,
+      "leadership": 3
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Interview with Leon for the SRE role",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "DevOps / SRE",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 63%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.448Z"
+  },
+  {
+    "id": 4,
+    "source_label": "UX Designer",
+    "overall_recommendation": "Strong Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 5,
+      "communication": 5,
+      "problem_solving": 5,
+      "culture_fit": 4,
+      "leadership": 4
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Aisha's portfolio was the strongest we've seen in this hire cycle",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "UX Designer",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 100%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.510Z"
+  },
+  {
+    "id": 5,
+    "source_label": "Marketing Manager",
+    "overall_recommendation": "Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 4,
+      "communication": 4,
+      "problem_solving": 4,
+      "culture_fit": 3,
+      "leadership": 3
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Daniel has a good track record in B2B SaaS marketing — led demand gen at his last place, comfortable with HubSpot and attribution modelling",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Marketing Manager",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 57%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.573Z"
+  },
+  {
+    "id": 6,
+    "source_label": "Sales Development Rep",
+    "overall_recommendation": "Strong No Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 1,
+      "communication": 1,
+      "problem_solving": 1,
+      "culture_fit": null,
+      "leadership": null
+    },
+    "key_strengths": [
+      "Some domain familiarity"
+    ],
+    "key_concerns": [
+      "Technical gaps identified",
+      "Communication concerns"
+    ],
+    "standout_quote": "He showed up unprepared — didn't know our product, hadn't looked at our website",
+    "seniority_signal": "Junior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Sales Development Rep",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 20%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.635Z"
+  },
+  {
+    "id": 7,
+    "source_label": "QA Engineer",
+    "overall_recommendation": "Strong Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 5,
+      "communication": 5,
+      "problem_solving": 5,
+      "culture_fit": 4,
+      "leadership": 4
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "She's done both manual and automation testing — solid Selenium, getting into Cypress",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "QA Engineer",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 88%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.698Z"
+  },
+  {
+    "id": 8,
+    "source_label": "Engineering Manager",
+    "overall_recommendation": "Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 4,
+      "communication": 4,
+      "problem_solving": 4,
+      "culture_fit": 3,
+      "leadership": 3
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Ravi has managed teams of 8-12 engineers at two different Series B companies",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Engineering Manager",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 67%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.761Z"
+  },
+  {
+    "id": 9,
+    "source_label": "Finance Analyst",
+    "overall_recommendation": "Strong No Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 1,
+      "communication": 1,
+      "problem_solving": 1,
+      "culture_fit": null,
+      "leadership": null
+    },
+    "key_strengths": [
+      "Some domain familiarity"
+    ],
+    "key_concerns": [
+      "Technical gaps identified",
+      "Communication concerns"
+    ],
+    "standout_quote": "The modelling test revealed some issues",
+    "seniority_signal": "Junior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Finance Analyst",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 0%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.838Z"
+  },
+  {
+    "id": 10,
+    "source_label": "Customer Success Manager",
+    "overall_recommendation": "Lean No Hire",
+    "confidence": "Medium",
+    "scores": {
+      "technical_skill": 3,
+      "communication": 2,
+      "problem_solving": 3,
+      "culture_fit": 2,
+      "leadership": null
+    },
+    "key_strengths": [
+      "Some domain familiarity"
+    ],
+    "key_concerns": [
+      "Technical gaps identified",
+      "Communication concerns"
+    ],
+    "standout_quote": "Ben is personable and has good energy — customers would like him",
+    "seniority_signal": "Mid",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Customer Success Manager",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 33%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.901Z"
+  },
+  {
+    "id": 11,
+    "source_label": "Android Developer",
+    "overall_recommendation": "Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 4,
+      "communication": 4,
+      "problem_solving": 4,
+      "culture_fit": 3,
+      "leadership": 3
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Yuki was strong in the technical portion",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Android Developer",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 67%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:56.964Z"
+  },
+  {
+    "id": 12,
+    "source_label": "Scrum Master",
+    "overall_recommendation": "Lean Hire",
+    "confidence": "Medium",
+    "scores": {
+      "technical_skill": 3,
+      "communication": 2,
+      "problem_solving": 3,
+      "culture_fit": 2,
+      "leadership": 2
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [
+      "Some gaps noted"
+    ],
+    "standout_quote": "Team seemed to like him in the panel session",
+    "seniority_signal": "Mid",
+    "feedback_quality": "Moderate",
+    "candidate_name": null,
+    "role": "Scrum Master",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 50%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:57.028Z"
+  },
+  {
+    "id": 13,
+    "source_label": "Security Engineer",
+    "overall_recommendation": "Lean Hire",
+    "confidence": "Medium",
+    "scores": {
+      "technical_skill": 3,
+      "communication": 2,
+      "problem_solving": 3,
+      "culture_fit": 2,
+      "leadership": 2
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [
+      "Some gaps noted"
+    ],
+    "standout_quote": "Fatima has a background in red-teaming and has transitioned into defensive security — that combination is rare and exactly what we need",
+    "seniority_signal": "Mid",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Security Engineer",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 50%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:57.090Z"
+  },
+  {
+    "id": 14,
+    "source_label": "Technical Writer",
+    "overall_recommendation": "Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 4,
+      "communication": 4,
+      "problem_solving": 4,
+      "culture_fit": 3,
+      "leadership": 3
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Grace's writing samples were clean and well-structured",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "Technical Writer",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 60%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:57.152Z"
+  },
+  {
+    "id": 15,
+    "source_label": "ML Researcher",
+    "overall_recommendation": "Hire",
+    "confidence": "High",
+    "scores": {
+      "technical_skill": 4,
+      "communication": 4,
+      "problem_solving": 4,
+      "culture_fit": 3,
+      "leadership": 3
+    },
+    "key_strengths": [
+      "Domain knowledge evident",
+      "Structured thinking",
+      "Good communication"
+    ],
+    "key_concerns": [],
+    "standout_quote": "Omar published two papers at NeurIPS on efficient transformers — the work is legible and novel",
+    "seniority_signal": "Senior",
+    "feedback_quality": "Detailed",
+    "candidate_name": null,
+    "role": "ML Researcher",
+    "reasoning": "[MOCK MODE] Heuristic extraction — positive signal ratio 57%. In production this field is extracted semantically by Claude with full contextual understanding. Run without --mock flag and set VITE_ANTHROPIC_API_KEY to enable real AI extraction.",
+    "analyzed_at": "2026-04-05T06:19:57.214Z"
+  }
+]

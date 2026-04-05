@@ -1,0 +1,13 @@
+overall_recommendation,confidence,candidate_name,role,technical_skill,communication,problem_solving,culture_fit,leadership,key_strengths,key_concerns,seniority_signal,feedback_quality,standout_quote,reasoning
+"Hire","High","","","4","4","4","3","3","Domain knowledge evident | Good communication","","Senior","Moderate","She answered the system design questions decently, though she missed a caching edge case","[MOCK MODE] Positive signal ratio 67%. Set VITE_ANTHROPIC_API_KEY for Claude extraction."
+"Hire","High","","","4","4","4","3","3","Domain knowledge evident | Good communication","","Senior","Moderate","David interviewed for the Lead Designer role","[MOCK MODE] Positive signal ratio 67%. Set VITE_ANTHROPIC_API_KEY for Claude extraction."
+"Lean No Hire","Medium","","","3","2","3","2","","Some domain familiarity","Gaps identified","Mid","Moderate","The coding task (simple string manipulation) took him 40 minutes and required multiple hints","[MOCK MODE] Positive signal ratio 33%. Set VITE_ANTHROPIC_API_KEY for Claude extraction."
+"Lean Hire","Medium","","","3","2","3","2","2","Domain knowledge evident | Good communication","","Mid","Detailed","Interview date: March 28
+Candidate: Ravi Shankar
+Role: Product Manager, Growth
+Interviewer: Dana Chen (PM Lead) + Marcus Li (Eng)
+
+---
+
+Pre-call notes: 4 years at Swiggy as an APM → PM","[MOCK MODE] Positive signal ratio 50%. Set VITE_ANTHROPIC_API_KEY for Claude extraction."
+"Strong Hire","High","","","5","5","5","4","4","Domain knowledge evident | Good communication","","Senior","Detailed","She easily coded a graph traversal algorithm and clearly explained time complexity","[MOCK MODE] Positive signal ratio 75%. Set VITE_ANTHROPIC_API_KEY for Claude extraction."

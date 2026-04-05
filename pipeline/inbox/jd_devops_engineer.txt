@@ -1,0 +1,1 @@
+DevOps Engineer needed. You will manage our AWS infrastructure and Kubernetes clusters. Requirements: CI/CD, Terraform, Docker. 4+ years of experience. Contract role for 12 months. Remote.

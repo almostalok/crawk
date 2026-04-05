@@ -1,0 +1,1 @@
+Hi! I've been a DevOps engineer for 6 years, working heavily with AWS and Terraform. At my last job, I automated our entire deployment pipeline, reducing deploy time from 2 hours to 15 minutes. Very comfortable with K8s.

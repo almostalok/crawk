@@ -1,0 +1,1 @@
+Hi, I'm John applying for the Data Scientist role. I have 4 years of experience using Python and PyTorch directly on fraud detection projects at my previous company, where my model reduced false positives by 12%. I communicate complex models clearly to non-technical stakeholders.

@@ -1,0 +1,1 @@
+The Q2 release was painfully slow. The QA team was a bottleneck because they were understaffed. That said, the new billing module works perfectly. We need to hire 2 more QA engineers ASAP to prevent this next quarter.

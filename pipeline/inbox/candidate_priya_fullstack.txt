@@ -1,0 +1,25 @@
+From: priya.nair.dev@gmail.com
+To: jobs@meridianl.com
+Subject: Application — Senior Full-Stack Engineer
+
+Hi,
+
+I came across your posting for the Senior Full-Stack Engineer role and it aligns really well with where I am in my career.
+
+Quick background on me: I'm currently a Lead Engineer at FinEdge (Series B fintech), where I've spent the last 3 years owning our payments integration layer — that's React on the frontend, Node + Express on the API side, and PostgreSQL for persistence. We process around 80k transactions a day through that system, which I architected from scratch when I joined.
+
+Before FinEdge I was at a consulting firm (Thoughtworks) for 4 years doing client delivery across healthcare and logistics. That's where I got comfortable moving quickly in unfamiliar codebases and dealing with legacy systems — so your PHP monolith migration story actually sounds more interesting to me than scary.
+
+I have strong opinions about test coverage and API design (in that order), which I know can be a personality trait people love or hate. I write ADRs for every significant technical decision, run weekly 1:1s with the junior engineers in my squad, and generally try to make reviews educational rather than gatekeeping.
+
+AWS experience: EC2, RDS, Lambda, CloudWatch daily. SQS is something I've used but don't consider myself expert-level. I haven't worked with Kubernetes in production — Docker Compose at the edge, Terraform for infra as code.
+
+The compensation range works for me. I'm interested in the equity conversation too.
+
+The project I'm most proud of: we migrated FinEdge's real-time notification system from a polling model to WebSockets with a Redis pub/sub backbone. Reduced latency from ~3s average to under 200ms and cut server load by 40%.
+
+Happy to do a technical screen or architecture conversation whenever.
+
+Priya Nair
+github.com/priyanair-dev | linkedin.com/in/priyanairdev
++1 (512) 882-0041

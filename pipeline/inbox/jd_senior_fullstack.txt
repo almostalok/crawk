@@ -1,0 +1,27 @@
+We're looking for a Senior Full-Stack Engineer to join our product team at Meridian Labs. This is a hands-on role for someone who can architect, build, and ship — not just review PRs.
+
+What you'll do:
+- Own end-to-end delivery of new product features across web and API layers
+- Collaborate closely with design and product in shaping requirements before a single line is written
+- Lead code review and technical decision-making for your squad (3-4 engineers)
+- Improve system reliability targeting 99.95% uptime on our core services
+- Help us migrate our legacy PHP monolith to a React + Node microservices architecture (ongoing, ~18 months project)
+
+We're looking for:
+- 5+ years of professional software development experience
+- Strong proficiency in React, TypeScript, and Node.js (we use all three daily)
+- Demonstrated experience with PostgreSQL and Redis at scale
+- Comfort with AWS — we're primarily on EC2, RDS, S3, and SQS
+- Someone who can write clear technical documentation and run sprint planning
+
+Nice to have:
+- Experience with GraphQL APIs
+- Familiarity with Kubernetes or Docker Swarm
+- Prior work in fintech or regulated industries
+
+Compensation: $140,000 – $175,000 base + equity (0.1–0.5% based on level) + full benefits
+Location: Remote-first, but we have offices in Austin and New York. Expect 1-2 visits per quarter.
+Reports to: Head of Platform Engineering
+Team size: Currently 11 engineers, growing to 18 by end of year
+
+To apply, send your resume and a short note on a system you're proud of to hiring@meridianl.com. No recruiters please.

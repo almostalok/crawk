@@ -1,0 +1,2 @@
+subject,about_category,sentiment,urgency,category,mentioned_people,mentioned_teams,key_points,action_items,summary
+"Q1 Engineering Retrospective — some honest thoughts","Hiring","Negative","High","Morale","From | To | Engineering Director | Subject | Engineering Retrospective","","[MOCK — run real pipeline for key point extraction]","[MOCK — run real pipeline for action item extraction]","[MOCK MODE] heuristic extraction. Set VITE_ANTHROPIC_API_KEY for full semantic extraction."
