@@ -32,7 +32,7 @@ export default function AnalyzeTab({ session, onNewRecord }) {
 
   const docType = DOC_TYPES[docTypeId];
 
-  const switchType = (id) => { setDocTypeId(id); setLastResult(null); setError(null); };
+  const switchType = (id) => { setDocTypeId(id); setInputText(""); setCandidateName(""); setRoleText(""); setLastResult(null); setError(null); };
 
   const analyze = useCallback(async () => {
     if (!inputText.trim()) return;
