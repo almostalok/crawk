@@ -1,85 +1,97 @@
-# [ CRAWK ] // INTELLIGENCE PIPELINE
+# Crawk — AI-Powered Recruiting Data Processor
 
-**TARGET:** UNSTRUCTURED RECRUITING DATA
-**OPERATION:** DEMOLITION & RESTRUCTURE
-**STATUS:** ONLINE // [crawl.vercel.app](https://crawl.vercel.app)
+**Live:** [crawl.vercel.app](https://crawl.vercel.app)
 
 ---
 
-## [01] SYSTEM_OVERVIEW
+## Overview
 
-CRAWK is a high-velocity, brutalist processing engine. It rejects aesthetic bloat in favor of raw mechanical throughput. Unstructured text (interview transcripts, messy job descriptions, fragmented feedback) goes in. Strictly typed, queryable JSON arrays come out.
+Crawk transforms unstructured recruiting text into clean, structured data. Paste in raw interview transcripts, messy job descriptions, candidate responses, or internal feedback — Crawk sends them through Google Gemini AI and returns strictly typed, queryable JSON that you can immediately export to CSV.
 
-**NO GRADIENTS. NO ROUNDED CORNERS. NO FLUFF. JUST DATA.**
-
----
-
-## [02] VISUAL_TELEMETRY
-
-![DASHBOARD_FEED](./public/crawk-screenshot.png)
-*> [ SYS_LOG ] Insert target screenshot at `./public/crawk-screenshot.png` to populate feed.*
+It is built for speed and clarity: no unnecessary UI chrome, just rapid data extraction and a focused dashboard.
 
 ---
 
-## [03] ARCHITECTURE_SPEC
+## Screenshot
 
-Engineered for zero-latency DOM manipulation and immediate AI processing. 
-
-### CORE_STACK
-* **RUNTIME:** Node.js (v18+)
-* **FRAMEWORK:** React 19 + Vite (Strict Mode)
-* **INTELLIGENCE:** Google Gemini API (`gemini-2.5-flash-001`)
-* **VISUAL_LAYER:** Pure Vanilla CSS / Brutalist Spec (3px `#000` solid borders, `4px 4px 0 0` hard shadows)
-* **STATE_CACHE:** Custom Volatile Session Store (Ephemeral)
-* **DATA_EXPORT:** Modular CSV Compiler (`src/utils/export.js`)
-
-### PROCESSING_MODULES
-1. **`[INTERVIEW_NOTES]`** : Dissects conversational dumps into structured candidate scorecards and dimensional metrics.
-2. **`[JOB_DESCRIPTIONS]`** : Extracts exact seniority ceilings, remote policies, and required hard skills.
-3. **`[CANDIDATE_RESPONSES]`** : Measures syntactic response quality and applicant experience levels.
-4. **`[INTERNAL_FEEDBACK]`** : Computes aggregate sentiment velocity and operational urgency.
+![Crawk Dashboard](./public/crawk-screenshot.png)
 
 ---
 
-## [04] DEPLOYMENT_PROTOCOLS
+## Tech Stack
 
-Execute the following commands to initialize the local environment. Any deviation will result in failure.
+| Layer | Technology |
+|---|---|
+| Runtime | Node.js v18+ |
+| Framework | React 19 + Vite |
+| AI Model | Google Gemini (`gemini-2.5-flash-001`) |
+| Styling | Vanilla CSS (brutalist design system) |
+| Session State | Custom in-memory session store |
+| Data Export | CSV compiler (`src/utils/export.js`) |
 
-### 1. ACQUIRE_SOURCE
+---
+
+## Processing Modes
+
+| Mode | Description |
+|---|---|
+| **Interview Notes** | Extracts structured candidate scorecards and dimensional metrics from conversational transcripts. |
+| **Job Descriptions** | Parses seniority level, remote policy, and required hard skills from raw job postings. |
+| **Candidate Responses** | Evaluates response quality and infers applicant experience level. |
+| **Internal Feedback** | Aggregates sentiment and urgency signals from recruiter or hiring-manager notes. |
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
 ```bash
 git clone <repository_url>
 cd crawk
 ```
 
-### 2. INSTALL_DEPENDENCIES
+### 2. Install dependencies
+
 ```bash
 npm install
 ```
 
-### 3. CONFIGURE_ENVIRONMENT
-Duplicate `.env.example` to `.env`.
-Inject your authorization key:
+### 3. Configure environment variables
+
+Copy `.env.example` to `.env` and add your Gemini API key:
+
 ```env
 VITE_GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
 ```
 
-### 4. IGNITE_SERVER
+### 4. Start the development server
+
 ```bash
 npm run dev
 ```
 
-### 5. BUILD_FOR_PRODUCTION
+### 5. Build for production
+
 ```bash
 npm run build
 ```
 
 ---
 
-## [05] DESIGN_MANIFESTO
+## Available Scripts
 
-CRAWK operates strictly on functional necessity. 
-* **TYPOGRAPHY:** Structural Monospace `var(--font-mono)` for payload data / Heavy Sans `var(--font-body)` for system headers.
-* **HIERARCHY:** Dictated purely by high-contrast `#000` boundaries, dense wireframes, and negative space formatting.
-* **INTERACTION:** Immediate, mechanical state shifts via sharp translation offsets (`transform: translate(2px, 2px)`) and background color inversion. No soft transitions. No easing.
+| Script | Description |
+|---|---|
+| `npm run dev` | Start Vite development server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+| `npm run pipeline` | Run the processing pipeline |
+| `npm run pipeline:mock` | Run the pipeline with mock data |
 
-**// EOF**
+---
+
+## Design Philosophy
+
+Crawk's UI is intentionally minimal and functional. Typography uses a monospace font for data output and a bold sans-serif for headers. Interactions are immediate — no transitions or animations — to keep the focus on data throughput. High-contrast black borders and hard drop shadows create clear visual boundaries without decorative overhead.
